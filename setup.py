@@ -17,11 +17,11 @@ setup(
     description = "Wrappers for the framework FSEvents on Mac OS X",
     packages = [ "FSEvents" ],
     setup_requires = [
-        'pyobjc-core>=2.5.1',
+        'git+https://github.com/jacktoole1/pyobjc-framework-FSEvents',
     ],
     install_requires = [
-        'pyobjc-core>=2.5.1',
-        'pyobjc-framework-Cocoa>=2.5.1',
+        'git+https://github.com/jacktoole1/pyobjc-framework-FSEvents',
+        'git+https://github.com/jacktoole1/pyobjc-framework-Cocoa',
     ],
     ext_modules = [
         Extension("FSEvents._callbacks",
