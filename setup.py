@@ -16,8 +16,10 @@ setup(
     version="2.5.1",
     description = "Wrappers for the framework FSEvents on Mac OS X",
     packages = [ "FSEvents" ],
+    # setup_requires doesn't like git links, so we just have to
+    # pip install these first:
     #setup_requires = [
-    #    'https://github.com/jacktoole1/pyobjc-core/tarball/master',
+    #    'https://github.com/Khan/pyobjc-core/tarball/master',
     #],
     dependency_links = [
         'https://github.com/Khan/pyobjc-core/tarball/master',
