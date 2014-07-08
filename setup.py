@@ -20,8 +20,8 @@ setup(
     #    'https://github.com/jacktoole1/pyobjc-core/tarball/master',
     #],
     dependency_links = [
-        'https://github.com/jacktoole1/pyobjc-core/tarball/master',
-        'https://github.com/jacktoole1/pyobjc-framework-Cocoa/tarball/master',
+        'https://github.com/Khan/pyobjc-core/tarball/master',
+        'https://github.com/Khan/pyobjc-framework-Cocoa/tarball/master',
     ],
     ext_modules = [
         Extension("FSEvents._callbacks",
