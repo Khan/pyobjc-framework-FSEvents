@@ -16,9 +16,9 @@ setup(
     version="2.5.1",
     description = "Wrappers for the framework FSEvents on Mac OS X",
     packages = [ "FSEvents" ],
-    setup_requires = [
-        'https://github.com/jacktoole1/pyobjc-core/tarball/master',
-    ],
+    #setup_requires = [
+    #    'https://github.com/jacktoole1/pyobjc-core/tarball/master',
+    #],
     dependency_links = [
         'https://github.com/jacktoole1/pyobjc-core/tarball/master',
         'https://github.com/jacktoole1/pyobjc-framework-Cocoa/tarball/master',
